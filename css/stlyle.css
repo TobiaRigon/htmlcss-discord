@@ -13,7 +13,7 @@
 
 button{
     font-size: 23px;
-    padding:2% 3%;
+    padding:15px 25px;
     margin:4% 2%;
     border-radius: 100px;
     border-style: none;
@@ -61,7 +61,7 @@ header{
  flex-direction: row-reverse;
 }
 
-ul{
+header ul{
     height: 100%;
     display: flex;
     justify-content:space-between;  
@@ -152,18 +152,19 @@ main section:last-child div{
 
 /* footer */
 footer section{
+    padding:30px 0;
     color: white;
     display: flex;
     justify-content: center;
-     /* debug */
-    height: 100px;
     background-color: rgb(35, 34, 39);
-    border-bottom: 2px solid wheat;
+   
 }
 
+
+
 footer section:first-child{
-    /* debug */
-   height: 400px;
+    padding:20px 0;
+   
 }
 
 footer section:last-child{
@@ -172,13 +173,11 @@ footer section:last-child{
 }
 
 #contacts{
-    padding-top: 20px;;
-    margin-top: 5px;
+    padding-top: 20px;
+    padding: 20px 0;
     width:calc(80% / 3);
-    /* debug */
-    height: 90%;
-    /* background-color: rgb(253, 175, 175);
-    border: 1px dotted rgb(5, 5, 5); */
+    border-bottom: #4c78e8 1px solid;
+
 }
 
 footer h3{
@@ -196,12 +195,18 @@ img[alt="italy_flag_icon"]{
 }
 
 .search{
-    margin-top: 5px;
+    padding-top: 20px;
+    padding: 20px 0;
     width:calc(80% / 6);
-    /* debug */
-    height: 90%;
-    background-color: rgb(35, 230, 201);
-    border: 1px dotted white;
+    border-bottom: #4c78e8 1px solid;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li:first-child{
+    color: #4c78e8;
 }
 
 #sing_in{
@@ -209,20 +214,6 @@ img[alt="italy_flag_icon"]{
     justify-content: space-between;
     align-items: center;
     width: 80%;
-     /* debug */
-     height: 80%;
-     background-color: rgb(0, 255, 195);
-     border: 1px dotted rgb(5, 5, 5);
+
 }
 
-#registrati{
-    /* debug */
-    background-color: rgb(255, 206, 243);
-    border: 1px dotted rgb(5, 5, 5);
-}
-
-#discord_logo{
-    /* debug */
-    background-color: rgb(255, 206, 243);
-    border: 1px dotted rgb(5, 5, 5);
-}
