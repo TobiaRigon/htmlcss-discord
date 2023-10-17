@@ -1,0 +1,171 @@
+/* general */
+*{
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+#nav_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    background-color: aquamarine;
+    height: 50px;
+   
+}
+
+.nav_container{
+    display: flex;
+    align-items: center;
+    width:20% ;
+    /* debug */
+    height: 30px;
+    background-color: rgb(255, 196, 0);
+    border: 1px dotted rgb(5, 5, 5);
+}
+
+#nav{
+    width:40% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_section .nav_container:last-child{
+ flex-direction: row-reverse;
+}
+
+ul{
+    height: 100%;
+    display: flex;
+    justify-content:space-between;  
+    list-style-type: none;
+}
+
+li{
+margin:auto 10px;
+}
+
+#download_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     /* debug */
+     background-color: rgb(11, 29, 165);
+     height: 400px;
+}
+
+#download_container {
+    width:65% ;
+    /* debug */
+    height: 80%;
+    background-color: rgb(255, 141, 244);
+    border: 1px dotted rgb(5, 5, 5);
+}
+
+/* main */
+main section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      /* debug */
+      height: 450px;
+}
+
+/* gray BG section */
+main section:nth-child(even){
+    flex-direction: row-reverse;
+    /* debug */
+background-color: rgb(191, 191, 191);
+} 
+
+main section:last-child div{
+    width:80% ;
+    /* debug */
+    height: 90%;
+    background-color: rgb(24, 160, 0);
+    border: 1px dotted rgb(5, 5, 5);
+}
+
+.img_container{ 
+    width: 45%;
+ /* debug */
+ height: 90%;
+ background-color: rgb(40, 145, 244);
+ border: 1px dotted rgb(5, 5, 5);
+}
+
+.info_container{
+    width: 35%;
+ /* debug */
+ height: 90%;
+ background-color: rgb(255, 198, 218);
+ border: 1px dotted rgb(5, 5, 5);
+}
+
+/* footer */
+footer section{
+    display: flex;
+    justify-content: center;
+     /* debug */
+    height: 100px;
+    background-color: rgb(35, 34, 39);
+    border-bottom: 2px solid wheat;
+}
+
+footer section:first-child{
+    /* debug */
+   height: 400px;
+}
+
+footer section:last-child{
+    align-items:flex-end;
+  
+}
+
+#contacts{
+    margin-top: 5px;
+    width:calc(80% / 3);
+    /* debug */
+    height: 90%;
+    background-color: rgb(253, 175, 175);
+    border: 1px dotted rgb(5, 5, 5);
+}
+
+.search{
+    margin-top: 5px;
+    width:calc(80% / 6);
+    /* debug */
+    height: 90%;
+    background-color: rgb(35, 230, 201);
+    border: 1px dotted white;
+}
+
+#sing_in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+     /* debug */
+     height: 80%;
+     background-color: rgb(0, 255, 195);
+     border: 1px dotted rgb(5, 5, 5);
+}
+
+#registrati{
+    /* debug */
+    background-color: rgb(255, 206, 243);
+    border: 1px dotted rgb(5, 5, 5);
+}
+
+#discord_logo{
+    /* debug */
+    background-color: rgb(255, 206, 243);
+    border: 1px dotted rgb(5, 5, 5);
+}
