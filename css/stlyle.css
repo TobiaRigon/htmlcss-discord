@@ -23,8 +23,7 @@ button:hover{
 }
 
 button:active{
-    filter: brightness(80%);
-    filter:drop-shadow(2px 2px);
+    filter:drop-shadow(2px 2px black);
 }
 
 /* header */
@@ -37,8 +36,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* debug */
     background-color:#255ee9;
     height: 50px;
    
@@ -49,10 +46,7 @@ header{
     display: flex;
     align-items: center;
     width:20% ;
-    /* debug */
-    /* height: 30px;
-    background-color: rgb(255, 196, 0);
-    border: 1px dotted rgb(5, 5, 5); */
+
 }
 
 #nav{
@@ -86,8 +80,7 @@ margin:auto 10px;
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size:  cover;
-     /* debug */
-     /* min-height: 300px; */
+     
 }
 
 #download_container {
@@ -101,6 +94,11 @@ h1{
     margin:50px;
 }
 
+h2{
+    font-size: 45px; 
+    margin-bottom:50px;
+}
+
 #open_discord{
     background-color: rgb(21, 21, 32);
     color: white;
@@ -109,11 +107,11 @@ h1{
 
 /* main */
 main section{
+    padding: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
-      /* debug */
-      height: 450px;
+    flex-wrap: wrap;
 }
 
 /* gray BG section */
@@ -125,26 +123,28 @@ background-color: rgb(191, 191, 191);
 
 main section:last-child div{
     width:80% ;
-    /* debug */
-    height: 90%;
-    background-color: rgb(24, 160, 0);
-    border: 1px dotted rgb(5, 5, 5);
+   
 }
 
-.img_container{ 
+.img_container{   
     width: 45%;
- /* debug */
- height: 90%;
- background-color: rgb(40, 145, 244);
- border: 1px dotted rgb(5, 5, 5);
+
 }
 
 .info_container{
+    min-width: 500px;
+    padding: 25px;
     width: 35%;
- /* debug */
- height: 90%;
- background-color: rgb(255, 198, 218);
- border: 1px dotted rgb(5, 5, 5);
+}
+
+.last{
+    text-align: center;
+}
+
+#scarica_mac{
+    color: white;
+    background-color: #4c78e8;
+    
 }
 
 /* footer */
