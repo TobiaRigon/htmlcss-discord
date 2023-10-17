@@ -102,7 +102,7 @@ h2{
 
 #open_discord{
     background-color: rgb(21, 21, 32);
-    color: white;
+    color: hsl(0, 0%, 100%);
 }
 
 
@@ -148,6 +148,11 @@ main section:last-child div{
     color: white;
     background-color: #4c78e8;
     
+}
+
+svg{
+    display: block;
+    margin:auto;
 }
 
 /* footer */
