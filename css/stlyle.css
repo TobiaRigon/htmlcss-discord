@@ -119,11 +119,6 @@ main section{
 /* gray BG section */
 main div:nth-child(even){
     flex-direction: row-reverse;
-    /* background-image: url( ../img/wave.svg );
-    background-repeat: no-repeat;
-    background-position:top;
-    background-position-y: 300; */
-    /* debug */
 background-color: rgb(191, 191, 191);
 } 
 
