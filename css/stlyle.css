@@ -26,6 +26,7 @@ button:active{
     filter:drop-shadow(2px 2px black);
 }
 
+
 /* header */
 
 header{
@@ -126,8 +127,10 @@ main section:last-child div{
    
 }
 
-.img_container{   
+.img_container{  
+    text-align: center; 
     width: 45%;
+    min-width: 500px;
 
 }
 
