@@ -152,6 +152,7 @@ main section:last-child div{
 
 /* footer */
 footer section{
+    color: white;
     display: flex;
     justify-content: center;
      /* debug */
@@ -171,12 +172,27 @@ footer section:last-child{
 }
 
 #contacts{
+    padding-top: 20px;;
     margin-top: 5px;
     width:calc(80% / 3);
     /* debug */
     height: 90%;
-    background-color: rgb(253, 175, 175);
-    border: 1px dotted rgb(5, 5, 5);
+    /* background-color: rgb(253, 175, 175);
+    border: 1px dotted rgb(5, 5, 5); */
+}
+
+footer h3{
+    font-size: 30px;
+    color: #4c78e8;
+    margin-bottom: 30px;
+}
+
+img[alt="italy_flag_icon"]{
+    max-height: 20px;
+}
+
+.social{
+    margin:30px 15px;
 }
 
 .search{
